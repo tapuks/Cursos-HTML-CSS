@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=lis, initial-scale=1.0">
+    <title>Horario</title>
+    <style>
+        td{background-color: blueviolet;}
+    </style>
+</head>
+<body>
+    <table>
+        <!-- TITULO SE PONE CON CAPTION-->
+        <caption>HORARIO SEMANAL</caption>
+        <!-- THEAD SIRVE PARA PONER LA PRIMERA FILA  -->
+        <thead>
+            <tr>
+                <th></th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Fin De</th>
+            </tr>
+        </thead>
+        <!-- TBODY ES EL CUERPO DE LA TABLA (OBLIGATORIO SI HAY UN THEAD) -->
+        <!-- CON ROWSPAN PONEMOS LAS FILAS QUE QUERAMOS QUE OCUPE UN TD -->
+        <tbody>
+            <tr>
+                <td>Mañana</td>
+                <td rowspan="2">desayunar</td>
+                <td>comer</td>
+                <td>almuerzo</td>
+                <td>dormir</td>
+            </tr>
+            <tr>
+                <td>Tarde</td>
+                <td>desayunar</td>
+                <td>comer</td>
+                <td>almuerzo</td>
+                
+                
+            </tr>
+            <tr>
+                <td>Noche</td>
+                <td>desayunar</td>
+                <td>comer</td>
+                <td>almuerzo</td>
+                <td>dormir</td>
+            </tr>
+            <tr>
+                <td>Madrugada</td>
+                <td>desayunar</td>
+                <td>comer</td>
+                <td>almuerzo</td>
+                <td>dormir</td>
+            </tr>
+        </tbody>
+        <!-- TFOOT ES OPCIONAL ES PARA PONER COMO UN PIE DE PAGINA EN LA TABLA -->
+        <!-- CON COLSPAN HACEMOS QUE EL TD OCUPE EL NUMERO DE COLUMNAS QUE LE PONEMOS -->
+        <tfoot>
+            <tr>
+                <td colspan="4">El numero de dias es </td>
+                <td>5</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

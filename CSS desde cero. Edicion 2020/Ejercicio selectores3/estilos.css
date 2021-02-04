@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.enlace-1 {
+    color: red;
+    text-decoration: none;
+}
+[class^=enlace-]:hover {
+    color: white;
+    background: red;
+    text-decoration: underline;
+}
+.enlace-2:link {
+    color: orange;
+    text-decoration: none;
+}
+.enlace-3:visited{
+    color: green;
+    text-decoration: none;
+}
+.enlace-4:focus {
+    color: blue;
+    text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.boton {
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.boton:active {
+    transform:scale(.9);
+}
+.boton:hover {
+    background: rgb(241, 120, 120);
+}
+.input {
+    display: block;
+    margin-top: 50px;
+}
+.input:focus {
+   
+    background-color: rgb(211, 210, 210);
+}

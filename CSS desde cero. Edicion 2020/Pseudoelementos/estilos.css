@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titulo::first-letter {
+    color: red;
+    font-size: 100px;
+}
+
+.texto::first-line {
+    color: blue;
+}
+.linea {
+    color: chartreuse;
+    /*Para que funcione en un elemento en linea lo tenemos de poner de bloque*/
+    display: block;
+}
+.linea::first-letter {
+    color: red;
+    font-size: 30px;
+}

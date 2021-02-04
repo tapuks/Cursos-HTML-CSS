@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.article {
+    border: 1px solid blue;
+    padding: 20px;
+    height: 100px;
+    /*Con overflow hidden se esconde todo lo que sobresale del height*/
+    /* overflow: hidden; */
+    /*Con overflow auto sale una barra de scroll para bajar y ver todo lo que no cabe en el height*/
+    overflow: auto;
+}
+.article-img {
+    margin: 40px 20px;
+    border: 2px solid tomato;
+    overflow: hidden;
+}
+.article-img img {
+    max-width: 70%;
+    float:right;
+    margin-left: 20px;
+    
+}

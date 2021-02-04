@@ -1,0 +1,40 @@
+* {
+    margin-left: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 50px;
+    width: 90%;
+    background: burlywood;
+    display: flex;
+}
+img {
+    max-width: 50%
+    
+    
+}
+.header__left {
+    display: flex;
+    width: 40%;
+    background: black;
+}
+.header__right {
+    display: flex;
+    width: 60%;
+    color: chocolate;
+    background: royalblue;
+
+}
+.name {
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    background: rgb(238, 59, 89);
+    height: 70px;
+    margin-left: -40px;
+    margin-top: 50px;
+    width: 70%;
+    text-align: center;
+}

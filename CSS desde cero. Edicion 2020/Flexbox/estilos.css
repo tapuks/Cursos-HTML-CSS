@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    
+    background-color: tan;
+    /* padding: 50px; */
+    /*Con display flex se pone horizontal y hace que quepa todo el conttenedor en la misma linea.*/
+    display: flex;
+    /*Con flex-wrap: wrap si no cabe en una linea salta a la siguiente*/
+    /* flex-wrap: wrap; */
+    /*Con justify-content center lo alinea en el centro dejando el mismo espacio a los lados*/
+    /* justify-content: center; */
+
+    /*Alinea todos de punta a punta dejando el mismo espacio entre medio*/
+    /* justify-content: space-between; */
+
+    /*Lo reparte de punta a punta dejando un margen del mismo tamaño que el espacio entre los elementos*/
+    /* justify-content: space-evenly; */
+    /*Alinea en el centro horizontalemnte*/
+    align-items: center;
+
+}
+.box {
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px;
+    
+}

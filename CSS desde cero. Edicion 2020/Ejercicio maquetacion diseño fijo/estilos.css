@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 960px;
+}
+.title {
+    text-align: center;
+    
+}
+.section-1 {
+    width: 260px;
+    background-color: hotpink;
+}

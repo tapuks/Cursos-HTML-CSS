@@ -1,0 +1,68 @@
+* {
+    box-sizing:border-box ;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.title {
+    /*font-size: 4em;*/ /* em es la misma unidad que esta en toda la pagina, si ponemos 2em sera el doble*/
+
+    font-size: 10vmin; /* coge el 3% del ancho de la pagina(que es el minimo) si esta la ventana minimizada, si esta abierta entera coge el alto que entonces es menor en tamaño que el ancho.*/
+}
+.paragraph {
+    font-weight: bold; /*Negrita*/
+    font-style: italic; /*Cursiva*/
+}
+.subtitulo {
+    margin-top: 50px;
+    text-transform: capitalize;
+    /* text-transform: uppercase;*/
+    /* text-transform: lowercase;  */
+}
+.enlace {
+    
+    display:block;
+    text-decoration:none;
+    /*Para ponerle un text-align hay que pasarlo a display de bloque*/
+    text-align: center;
+    
+}
+.box {
+    margin-top: 100px;
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+}
+/*Centramos el texto en el cuadrado*/
+.box__texto{
+    text-align: center;
+    /*Si el texto es mas largo que el ancho del cuadrado, desapareceria el texto. Para ponerlo en el centro se pone el mismo line-height que height tiene la caja*/
+    line-height: 200px;
+}
+.titlefuente {
+    font-family: 'Bebas Neue', cursive;
+
+}
+.paragraph_fuente {
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+@font-face {
+    src: url("fuentes/Anthroops Free.ttf");
+    font-family: "fuente1";
+}
+
+.fuente-descargada {
+    font-family: "fuente1";
+    color: red;
+    font-size: 100px;
+    margin-left: 40px;
+}
+@font-face {
+    src: url("fuentes/Worthbites.ttf");
+    font-family: fuente2;
+}
+.paragraph_fuente2 {
+    font-family: fuente2;
+    font-size: 25px;
+}

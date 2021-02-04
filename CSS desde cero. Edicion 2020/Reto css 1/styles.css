@@ -1,0 +1,23 @@
+  
+body {
+    margin: 50px auto;
+    width : 800px ;
+    
+  }
+  
+  .layout {
+    display: grid;
+    /* columnas de plantilla de cuadrícula : repetir ( 2 ,  420 px ); */
+    grid-template-columns:repeat(2, 420px) ;
+    
+    justificar-contenido : centro;
+    justify-content: center;
+    justificar-elementos : centro;
+    align-items: center;
+  }
+  
+  .exercise img {
+    max-width:100% ;
+    display: block;
+    
+  }

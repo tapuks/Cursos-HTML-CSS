@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.h1 {
+    border: 2px solid blue;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    border: 2px solid grey;
+    padding-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+ul {
+    border: 2px solid lime;
+    padding-left: 50px;
+    list-style: square;
+    
+}
+li+li {
+    margin-top: 15px;
+    
+}

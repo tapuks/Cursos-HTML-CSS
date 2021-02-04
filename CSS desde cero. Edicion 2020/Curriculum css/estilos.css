@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100%;
+    background-image: radial-gradient(circle, pink, rgb(250, 108, 108));
+    font-family:   Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.folio {
+    max-width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.header {
+   
+    width: 100%;
+    background: white;
+    display: flex;
+    height: 220px;
+}
+.foto__header {
+    max-width: 60%;
+    max-height: 50%;
+    margin-left: -5px;
+    border-radius: 150px;
+    border:5px solid #666;
+    
+    
+    
+}
+.header__left {
+    margin-left: 30px;
+    display: flex;
+    width: 30%;
+    background: rgb(109, 94, 94);
+    justify-content: center;
+    align-items:center
+}
+.header__right {
+    display: flex;
+    width: 70%;
+    color: chocolate;
+    background: white;
+
+}
+.name {
+
+    color: white;
+    font-size: 40px;
+    background: chartreuse;
+    border-radius: 15px;
+    height: 70px;
+    margin-left: -20px;
+    margin-top: 70px;
+    width: 70%;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.oficio {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: -50px;
+    display: block;
+    margin-top: -5px;
+}
+.main {
+    width: 100%;
+    background: white;
+    display: flex;
+    height: 300px;
+}
+.main__left {
+    background: rgb(109, 94, 94);
+    width: 30%;
+    margin-left: 30px;
+}
+
+h2 {
+   
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.main__direccion,
+.main__email,
+.main__telefono {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    color: white;
+    
+}
+.img_casa,
+.img_correo,
+.img_telefono {
+    background: chartreuse; 
+    width: 20%;
+    padding-left: 30px;
+    margin-left: -30px;
+    padding-right: 10px;
+    color: white;
+   
+}
+li {
+    margin-left: -20px;
+    list-style: none;
+    margin: auto;
+    font-size: 15px;
+}
+.main__right {
+    width: 70%;
+   
+}
+.main__right__title {
+    width: 90%;
+    display: flex;
+    border-bottom: 2px solid chartreuse;
+    margin-left: 30px;
+}
+
+.main__right__title img {
+    width: 5%;
+    background: chartreuse;
+    border-radius: 30px;
+}
+.main__right__title h2 {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+.main__right p {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 90%;
+}
+.main2 {
+    width: 100%;
+    background: white;
+    display: flex;
+    
+}
+.main2__left {
+    width: 30%;
+    background: rgb(109, 94, 94);
+    margin-left: 30px;
+}
+.main2__left h2 {
+    margin-top: -40px;
+}
+.main2__left li {
+    margin: 20px 40px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2__right {
+    width: 70%;
+    margin-top: -40px;
+}
+.main2__right h2 {
+    color: black;
+    margin-left: 20px;
+    text-align: left;
+    text-decoration: none;
+    
+}
+.main2__right img {
+    width: 5%;
+    background: chartreuse;
+    border-radius: 40px;
+}
+.estudios {
+    
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.estudios__anyo {
+    font-weight: bold;
+    display: flex;
+    margin-left: 30px;
+    width: 20%;
+
+}
+.estudios__centro {
+    margin-left: 20px;
+    font-weight: bold;
+    display:flex;
+    justify-content:left;
+    width: 70%;
+}
+.estudios__descripcion {
+    
+    font-weight: normal;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 26.5%;
+}
+.main3{
+    display: flex;
+    background: white;
+    width: 100%;
+}
+.main3__left {
+    background: rgb(109, 94, 94);
+    margin-left: 30px;
+    width: 30%;
+    color: white;
+    
+}
+.main3__left h2 {
+    margin-top: 40px;
+}
+.main3__left ul {
+    margin: 30px auto;
+    width: 80%;
+}
+.main3__left li {
+    list-style-type: square;
+    line-height: 25px;
+    
+}
+.main3__right {
+    width: 70%;
+    margin-top: 50px;
+    
+}
+.main3__right__title h2 {
+    color: black;
+    margin-left: 20px;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: 2px solid chartreuse;
+}
+.main3__right__title img {
+    width: 5%;
+    background: chartreuse;
+    border-radius: 40px;
+}
+.experiencia {
+    
+    display: flex; 
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;  
+}
+.anyo {
+    display: flex;
+    justify-content: left;
+    width: 35%;
+    font-weight: bold;  
+}
+.empresa {
+    display: flex;
+    justify-content: left;
+    width: 55%;
+    font-weight: bold;
+}
+.localidad {
+    display:flex;
+    width: 35%;
+}
+.puesto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ 

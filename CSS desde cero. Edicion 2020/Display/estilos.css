@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.linea {
+    background: chartreuse;
+    /* height: 200px; No hace nada, los elementos en linea nocesitan pasarse a inline-block para ponerle una altura o anchura*/
+    display: inline-block; 
+    height: 200px; /*Ahora si que funciona el height y el width*/
+    width: 300px;
+    
+}
+.bloque {
+    background: crimson;
+    height: 200px;
+    /* display: none; con display none hacemos desaparecer el bloque.
+} */

@@ -1,0 +1,52 @@
+/* 
+IMPORTANTE: USAR UN SOLO DIV
+Colors:
+  Background: #293462
+  Soap: #FE5F55
+  Shadow: #A64942
+*/
+.bg {
+    width: 400px;
+    height: 300px;
+    background: #293462;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+  }
+.dibujo {
+    background:#FE5F55 ;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    position: relative;
+    top:-5px;
+    
+   
+ }
+ .dibujo::before {
+    content: "";
+    width: 140px;
+    height: 40px;
+    background:#A64942 ;
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+ }
+ .dibujo::after {
+     content: "";
+     width: 200px;
+     height: 50px;
+     background:#A64942 ;
+     border-radius: 20px;
+     position: absolute;
+     bottom: -20px;
+     z-index: -1;
+     
+ }

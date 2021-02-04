@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+/*DECLARAMOS VARRIABLE */
+:root {
+    --color: blue;
+    --border: 4px solid yellow;
+}
+.paragraph {
+    color: var(--color);
+    font-size: 25px;
+}
+.article {
+    --color: red;
+}
+
+/* LE PONEMOS LA PSEUDOCLASE CHECKED A .CHECK Y A SU HERMANO .BOX*/
+.check:checked +.box {
+    --color:green;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background: var(--color);
+    border: var(--border);
+
+}

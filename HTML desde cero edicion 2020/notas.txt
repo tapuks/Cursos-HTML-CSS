@@ -1,0 +1,53 @@
+//atributo target----------------cuando clicas en el enlace te abrira una pestaña nueva.
+<a href="https://www.google.es" target="blank">google</a>
+
+//atributo download-----------------cuando clcias en el enlace descargara el archivo.
+ <a href="gato.jpg" download>descargar gato</a>
+
+//Poner la direccion con la etiqueta adress es lo correcto.
+<body>
+    <footer>
+        <address>
+            C/el Pilar 13 <br>
+            22549 <br>  
+            Vencillon (Huesca) <br>
+            652200331
+        </address>
+    </footer>
+</body>
+
+//Con la etiqueta <pre> escribimos lo que queramos y se vera igual en la web, sin tener que usar etiquetas de salto de linea.
+<pre>
+    hola que
+    tal
+</pre>
+
+//La etiqueta <hr> sirve para cambiar de tema. Se muestra en el navegador con una linea.
+
+//La etiqueta <span> sirve para darle estilo distinto a algo en concreto en un texto.
+<p>Hola que tal <span style="color: red;">yo estoy bien</span></p>
+
+//Si ponemos el mismo nombre a la etiqueta for de label y id de input al apretar en el label tambien se marcarara el input.
+<form 	action="envio.html">
+       <label for="nombre">Formulario</label>
+       <input id="nombre" type="text">
+       <button>Enviar</button>
+</form>
+
+//Para convertir imagenes a otro formato llamado webp (nuevo formato recomendado), que no pierde apenas calidad pero pesa la mitad.
+https://imagen.online-convert.com/es/convertir-a-webp
+
+//Para poner una imagen con la etiqueta <img>. Con alt ponemos un nombre para que en caso de que falle la imgen se vea una descripcion de lo que es.
+Dandole estilo, con max-width: hacemos que la imagen no sobresalga mas que la pagina.
+<img src="assets/img/1.jpg" alt="imagen de paisaje" style="max-width: 100%;">
+
+//En imagenes con el atributo srcset, le podemos decir que segun el tamaño de la pantalla donde mires la web(ordenador o movil), cargue una imagen
+o otra. Asi si una imagen ocupa mucho, para la version movil se puede poner esa imagen pero de menos tamaño, para que la web cargue antes.
+<img  src="1.jpg"  srcset="imagen.jpg, imagen-movil.jpg 2x">
+Se vera imagen.jpg en el ordenador, en cambio en el movil se vera imagen-movil.jpg porque hemos puesto el 2x. (2x o 3x es lo normal en responsive para el movil)
+Con internet explore no le la etiqueta srcset entonces se veria 1.jpg.
+
+
+
+
+

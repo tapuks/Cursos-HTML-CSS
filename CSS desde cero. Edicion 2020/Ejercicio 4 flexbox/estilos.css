@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    margin: 50px 50px;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    
+    
+}
+.contain {
+    width:100% ;
+    height: 150px;
+    display: flex;
+}
+.rojo {
+    background: red;
+    width: 33.333%;
+}
+.azul {
+    background:blue ;
+    width: 33.333%;
+}
+.verde {
+    background: green;
+    width: 33.333%;
+}
+.naranja {
+    background: orange;
+    width: 50%;
+}
+.rosa {
+    background: pink;
+    width: 50%;
+}
+.amarillo {
+    background: yellow;
+    width: 100%;
+}
+.gris {
+    background: grey;
+    width: 33.333%;
+}
+.negro {
+    background: black;
+    width: 33.333%;
+}
+.marron {
+    background: brown;
+    width: 33.333%;
+}

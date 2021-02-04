@@ -1,0 +1,28 @@
+* {
+    box-sizing:border-box ;
+}
+body {
+    margin: 0;
+    
+}
+.menu {
+    background-color: lightseagreen;
+    height: 60px;
+    padding: 12px;
+    text-align: center;
+    font-size: 25px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    
+}
+h1 {
+    
+    padding-top:100px ;
+}
+.bloque{
+    height: 300px;
+    background-color: darkorchid;
+    text-align: center;
+    font-size: 50px;
+}
